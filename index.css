@@ -1,5 +1,26 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #C6C6C6;
+}
+.logo,
+.personal-profile {
+  margin: 1rem;
+}
+.logo {
+  width: 30%;
+  height: 20%;
+}
+
+.personal-profile {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+}
