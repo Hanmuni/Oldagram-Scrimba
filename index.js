@@ -40,7 +40,7 @@ function renderPosts() {
       <section class="profile">
         <div class="user">
           <img
-            src="${posts[i].avatar}"
+            src="./${posts[i].avatar}"
             class="personal-profile"
             alt="Profile Picture of the  post's user"
           />
@@ -52,7 +52,7 @@ function renderPosts() {
 
         <img
           class="post-img"
-          src="${posts[i].post}"
+          src="./${posts[i].post}"
           alt="Uploaded image of the post"
         />
         <div class="icons">
